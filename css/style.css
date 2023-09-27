@@ -5,22 +5,52 @@ html {
     background-color: rgb(173, 216, 230);
 }
 
+body {
+    position: fixed;
+}
+
+.logo > img {
+    width: auto;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    transition: a11 0.15s;
+}
+.logo > img:hover {
+    border-color: rgb(240, 248, 255);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo span {
+    font-weight: 600;
+    font-size: 24px;
+    color: black;
+}
+
 .container {
     width: 500px;
-    margin: auto;
+    margin-left: 40%;
     padding: 10px;
     border-style: solid;
     border-color: rgb(207, 232, 243);
     border-width: 2px;
     background-color: rgb(240, 248, 255);
 }
-img {
+.container img {
     width: 80%;
     height: auto;
     object-fit: contain;
 }
 
-ul {
+.container ul {
     text-align: left;
     list-style-type: none;
     width: 80%;
@@ -28,11 +58,11 @@ ul {
     margin-left: 10%;
 }
 
-li {
+.container li {
     padding-bottom: 5px;
 }
 
-a {
+.container a {
     color: black;
     text-decoration: none;
     font-size: 20px;
@@ -41,7 +71,7 @@ a {
     transition: color 0.15s, text-decoration 0.15s;
 }
 
-a:hover {
+.container a:hover {
     color: rgb(29, 118, 242);
     text-decoration: underline;
 }
