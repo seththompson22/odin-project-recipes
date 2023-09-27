@@ -5,9 +5,6 @@ html {
     background-color: rgb(173, 216, 230);
 }
 
-body {
-    position: fixed;
-}
 
 .logo > img {
     width: auto;
@@ -36,8 +33,8 @@ body {
 }
 
 .container {
-    width: 500px;
-    margin-left: 40%;
+    width: 600px;
+    margin: auto;
     padding: 10px;
     border-style: solid;
     border-color: rgb(207, 232, 243);
