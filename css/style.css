@@ -9,7 +9,7 @@ body {
     position: fixed;
 }
 
-.logo > img {
+.logo .logo-img {
     width: 25px;
     height: auto;
     margin-right: 5px;
@@ -19,7 +19,7 @@ body {
     border-color: black;
     transition: a11 0.15s;
 }
-.logo > img:hover {
+.logo > .logo-img:hover {
     border-color: rgb(240, 248, 255);
 }
 
